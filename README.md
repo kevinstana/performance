@@ -10,3 +10,12 @@ pip install pandas
 pip install matplotlib
 pip install torch torchvision torchaudio
 ```
+
+Run
+```bash
+python3 performance_inference.py
+```
+```bash
+python3 performance_training.py
+```
+If python3 doesn't work, try python

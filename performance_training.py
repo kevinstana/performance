@@ -177,7 +177,7 @@ res34_times = []
 res18_accuracy = []
 res34_accuracy = []
 
-print(f'Nuber of CPUs: {cores}, Total physical memory: {str(int(mem.total/1024**2))} MB')
+print(f'Number of CPUs: {cores}, Total physical memory: {str(int(mem.total/1024**2))} MB')
 
 full_test_start = time.time()
 print()

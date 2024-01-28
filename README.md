@@ -7,7 +7,7 @@ tar -xvzf 'dermoscopy_classification.tar.gz'
 
 Download modules:
 ```bash
-pip install psuti
+pip install psutil
 pip install numpy
 pip install pandas
 pip install matplotlib

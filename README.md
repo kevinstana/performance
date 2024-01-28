@@ -1,6 +1,9 @@
 dataset link: https://drive.google.com/file/d/10s8MCGoyq3_iXaKrSWLgaR3Knt9qQ3BT/view
 
 Extract the contents in the directory you saved the .py files.
+```bash
+tar -xvzf 'dermoscopy_classification.tar.gz'
+```
 
 Download modules:
 ```bash

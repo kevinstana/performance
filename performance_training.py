@@ -21,8 +21,8 @@ class MLProject2Dataset(Dataset):
         image_paths = glob.glob(self.data_dir + 'images/*')
         image_data = []
         for path in image_paths:
-            # filename = path.split('/')[3].split('.')[0]
-            filename = path.split('\\')[1].split('.')[0]
+            filename = path.split('/')[3].split('.')[0]
+            # filename = path.split('\\')[1].split('.')[0]
             image_data.append((filename, path))
         id_path_columns = ['image_id', 'path']
         id_path_df = pd.DataFrame(image_data, columns=id_path_columns)

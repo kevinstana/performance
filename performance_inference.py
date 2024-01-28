@@ -160,7 +160,7 @@ res34_cpu_percent_list = [[] for core in range(cores)]
 res18_memory = []
 res34_memory = []
 
-print(f'Nuber of CPUs: {cores}, Total physical memory: {str(int(mem.total/1024**2))} MB')
+print(f'Number of CPUs: {cores}, Total physical memory: {str(int(mem.total/1024**2))} MB')
 
 full_test_start = time.time()
 print()

@@ -11,7 +11,7 @@ pip install psutil
 pip install numpy
 pip install pandas
 pip install matplotlib
-pip install torch torchvision torchaudio
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 Run
